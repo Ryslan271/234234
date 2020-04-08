@@ -10,9 +10,9 @@ def home():
     return render_template('Osnova.html')
 
 
-@app.route("/")
+@app.route("/Lyshee")
 def lyshee():
-    return render_template('Osnova.html')
+    return render_template('Lyshee.html')
 
 
 if __name__ == '__main__':
